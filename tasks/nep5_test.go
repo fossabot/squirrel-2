@@ -10,6 +10,10 @@ import (
 )
 
 func TestQueryNep5AssetBalance(t *testing.T) {
+	if testing.Short() {
+		t.SkipNow()
+	}
+
 	log.Init()
 	defer func() {
 		os.Remove("error.log")
