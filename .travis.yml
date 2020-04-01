@@ -1,0 +1,18 @@
+language: go
+
+os:
+    - linux
+    - osx
+    - windows
+
+go:
+    - 1.12.x
+    - 1.13.x
+    - master
+
+branches:
+    only:
+        - master
+
+script:
+    - go test -short ./...
