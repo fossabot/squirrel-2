@@ -16,3 +16,6 @@ branches:
 
 script:
     - go test -short ./...
+
+env:
+    - GO111MODULE=on
