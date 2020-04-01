@@ -1,0 +1,27 @@
+{
+    "user": "USER",
+    "password": "PASSWORD",
+    "hostname": "HOSTNAME",
+    "port": "3306",
+    "database": "DATABASE",
+
+    "rpc_url": [
+        "RPC_URL1",
+        "RPC_URL2"
+    ],
+
+    "label": "mainnet",
+
+    "workers": 3,
+
+    "aliyun_mail": {
+        "accountName": "admin@example.com",
+        "region": "cn-shanghai",
+        "accessKeyID": "xxxxxx",
+        "accessKeySecret": "xxxxxx",
+        "receiver": [
+            "maintainer1@example.com",
+            "maintainer2@example.com"
+        ]
+    }
+}
